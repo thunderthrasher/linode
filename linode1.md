@@ -1,7 +1,7 @@
 # Basic Nginx, PHP and MYSQL Installation on Linode (LEMP)
 
 
-The NGINX web server is a fast, lightweight server designed to efficiently handle the needs of both low and high traffic websites. Granted it is not the easiest to configure and set up, but the speed makes it well worth the while and the *learning curve*. I myself managed to get a 58% speed increase by mooing from Apache to NGINX which was real **WOW Factor** for me . 
+The NGINX web server is a fast, lightweight server designed to efficiently handle the needs of both low and high traffic websites. Granted it is not the easiest to configure and set up, but the speed makes it well worth the while and the *learning curve*. I myself managed to get a 58% speed increase by moving from Apache to NGINX which was real **WOW Factor** for me . 
 
 This guide will help you get NGINX up and running on your Linode VPS.
 
