@@ -125,7 +125,7 @@ As NGINX is configured to start up upon installation, you can go straight to you
 8.  After this press Ctrl-X, nano will then prompt you **Save Modified Buffer?** click **Y ** and ENTER. (unless you don't want to save your hard work :-) **Crtl-Z will exit nano without saving your file**
 9.  Now all that you need to do is to restart the NGINX server by typing `sudo service nginx restart`, there is really no need to restart the php server as we did not change any of it's configuration files, but just in case, the command for that would be `sudo service php5-fpm restart`. You could also just type `reboot`, to reboot the entire server from the SSH terminal, however this may take 15 seconds or so. 
 
-Once you are ready you can go to your domain `http://www.example.com/myinfofile.php ` or your IP address as `http://96.126.113.121/myinfofile.php`, to see your php server in action. I do recommend removing the **myinfofile.php** file on your server once done, as it does pose a security risks (you may remove it via `rm /usr/share/nginx/html/myinfofile.php` and recreating it when needed by typing `echo '<?php phpinfo(); ?>' > /usr/share/nginx/html/myinfofile.php`.
+Once you are ready you can go to your domain `http://www.example.com/myinfofile.php ` or your IP address as `http://96.126.113.121/myinfofile.php`, to see your php server in action. I do recommend removing the **myinfofile.php** file on your server once done, as it does pose a security risks (you may remove it via `rm /usr/share/nginx/html/myinfofile.php` and recreate it when needed by typing `echo '<?php phpinfo(); ?>' > /usr/share/nginx/html/myinfofile.php`.
 		
        	The page should look like this:
         
