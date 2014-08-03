@@ -28,7 +28,8 @@ In this tutorial you will learn
 
 Once you have created a Linode account simply click on **Deploy a Linux Distribution** in your Linode Dashboard. You will then be redirected to the Linode Deploy page. Once there, choose the following from the dropdown menu:
 
-	Ubuntu 14.04 LTS, Swap 512, and choose a password (This password will be used for your ssh root login.
+	Ubuntu 14.04 LTS, Swap 512, and choose a password (This password will be used for your ssh
+    root login.
     
 ![](http://thunderthrasher.com/deploy.png)
 
@@ -48,10 +49,14 @@ Once Ubuntu is fully installed, you will need to boot your system, just select y
 Start off by logging into your Linode account, proceeding to your dashboard and click on the *Linodes* link (Just under your dashboard tab).
 
 	1.  Highlight and copy the IP (Crtl-C)...writing it down works too :-) .
-	2.  Start up your SSH Client (Putty), and paste this IP into the **Host name (or IP address) Field**.
-    3.  You may get a dialog box displaying **PuTTY Security Alert** (You may ignore it if you wish,and click on the Accept button) ,*basically it's a notice that this is the first time that you logged in from your current computer*.
+	2.  Start up your SSH Client (Putty), and paste this IP into the **Host name (or IP address) 
+    	Field**.
+    3.  You may get a dialog box displaying **PuTTY Security Alert** (You may ignore it if you wish
+    	and click on the Accept button) ,*basically it's a notice that this is the first time that
+        you logged in from your current computer*.
 	4.  Next a dialog window will open, displaying **Login as:** type in `root`.
-	5.  After this Linode will ask you for **root@96.126.113.121's password:** type in the password you used while setting up the Ubuntu 14.04 **(Step 1 of this Tutorial)**.
+	5.  After this Linode will ask you for **root@96.126.113.121's password:** type in the password 
+    	you used while setting up the Ubuntu 14.04 **(Step 1 of this Tutorial)**.
 
 ![putty](http://thunderthrasher.com/putty1.png)
 
