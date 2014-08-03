@@ -82,7 +82,7 @@ As NGINX is configured to start up upon installation, you can go straight to you
 
 1. Log into your MYSQL Admin account by typing `mysql -u root -p` (then type in your MYSQL root password that you created earlier)
 2. You are now in the MYSQL admin, this can be seen as your prompt starts with **mysql>**
-3. Create a new database by typing `CREATE DATABASE mydatabase;` remember to use the ** ;** (Semi-colon) after every mysql statement in the admin.
+3. Create a new database by typing `CREATE DATABASE mydatabase;` remember to use the ** ; ** (Semi-colon) after every mysql statement in the admin.
 4. Create a new user `CREATE USER myuser@localhost IDENTIFIED BY 'mypassword';` (Replace *myuser* and *mypassword* with your own).
 5. Assign privileges to your new user `GRANT ALL PRIVILEGES ON mydatabase.* TO myuser@localhost;`
 6. If you are happy with these settings type `FLUSH PRIVILEGES;` *this command essentially saves the changes*.
